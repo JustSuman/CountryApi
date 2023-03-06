@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="icon"
+        href="https://www.flaticon.com/svg/vstatic/svg/9585/9585907.svg?token=exp=1678128962~hmac=16cb76bd81eacce16b5cafb3725348d4">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Country | Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchbar">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your city"">
+        <i class=" fa-solid fa-magnifying-glass" onclick="inputEnter()"></i>
+        </div>
+        <div class="flag">
+            <img src="" alt="flag" width="30%" />
+        </div>
+        <div class="description">
+            <h1 class="name">Name: </h1>
+            <h2 class="capital">Capital City: </h2>
+            <!-- <h3 class="currency">Currency </h3> -->
+            <h2 class="region">Region: </h2>
+            <!-- <h3 class="language">Language </h3> -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="info">
+            <h1></h1>
+        </div>
+        <div class="date">
+            <span class="month"></span>
+        </div>
+        <div class="weather">
+            <span class="tempreture" style="text-align: center;"></span>
+            <div class="climate">
+                <img src="" alt="icon">
+                <span class="descripion"></span>
+            </div>
+            <span class="wind"></span>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
